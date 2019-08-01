@@ -18,5 +18,19 @@ import ae.stock.entities.ShareValues;
 import ae.stock.entities.StockTransactions;
 
 public class AiPlayerCore {
+    private static List<Player> ai_players = new ArrayList<Player>();
+
+	public static List<Player> getPlayers() {
+		return ai_players;
+	}
+	
+	public static void newAiPlayer(Player player) {
+		ai_players.add(player);
+	}
+
+	public static void setPlayers(List<Player> players) {
+		AiPlayerCore.ai_players = players;
+	}
+	
 
 }
