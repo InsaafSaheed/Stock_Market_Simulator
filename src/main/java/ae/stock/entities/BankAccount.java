@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 
-@XmlRootElement(name = "recommendation") 
-public class AnalystSuggession implements Serializable {
+@XmlRootElement(name = "bank_account") 
+public class BankAccount implements Serializable {
 
 }
