@@ -15,6 +15,12 @@ import com.ofallonfamily.jersey2akka.AfterEffectsApplication;
 
 public class BankActorTest extends JerseyTest{
 	
-
+protected Application configure() {
+        return new AfterEffectsApplication();
+    }
+	
+	protected void configureClient(ClientConfig clientConfig) {
+        clientConfig.register(new JacksonJsonProvider());
+    }
 
 }
