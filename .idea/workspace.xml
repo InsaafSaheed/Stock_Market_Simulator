@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13a7e3b9-f332-4231-b9ba-e8c710179128" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/AfterEffectsApplication$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/AfterEffectsApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/BankActor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/BankMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/BrokerActor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/BrokerMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/ClockActor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/ClockMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/GameService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/GameService$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/GameService$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/GameService$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/GameService$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/GameService$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/GameService$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/GameService$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/GameService$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/GameService$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/GameService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/MarketActor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/MarketAnalysisService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/MarketAnalysisService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/MarketMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerActor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerBrokerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ofallonfamily/jersey2akka/PlayerMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/ClockActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/ClockActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/ClockMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/ClockMessage.java" afterDir="false" />
-    </list>
+    <list default="true" id="13a7e3b9-f332-4231-b9ba-e8c710179128" name="Default Changelist" comment="Initial Commit" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,15 +25,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/BankActor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/BrokerActor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="68">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
               <folding>
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/ClockActor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="357">
               <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding>
                 <element signature="e#408#409#0" expanded="true" />
@@ -96,38 +55,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/ClockMessage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/GameService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="335">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-              </folding>
+              <caret line="306" column="5" selection-start-line="306" selection-start-column="5" selection-end-line="306" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/BankMessage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/BrokerMessage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
                 <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,7 +101,6 @@
         <option value="$PROJECT_DIR$/src/test/java/ae/stock/actorstest/BrokerActorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/BrokerActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/BrokerMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/GameService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/MarketActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/MarketAnalysisService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/MarketMessage.java" />
@@ -156,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/BankMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/ClockActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/ClockMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/GameService.java" />
       </list>
     </option>
   </component>
@@ -257,6 +214,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AfterEffectsSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AfterEffectsSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jersey2akka" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -341,6 +306,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -357,8 +323,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -426,22 +392,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/BrokerActor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="68">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding>
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/BrokerMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/GameService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="221">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,19 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/ClockActor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding>
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/ClockMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -551,6 +521,26 @@
             <element signature="e#399#400#0" expanded="true" />
             <element signature="e#432#433#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/ClockActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding>
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ofallonfamily/jersey2akka/GameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="306" column="5" selection-start-line="306" selection-start-column="5" selection-end-line="306" selection-end-column="5" />
         </state>
       </provider>
     </entry>
