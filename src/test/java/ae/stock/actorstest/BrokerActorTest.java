@@ -27,19 +27,19 @@ public class BrokerActorTest extends JerseyTest{
     public void testBank() {
 		Response response = target("/game/init").request().get();
 		  assertEquals("should return status 200", 200, response.getStatus());
-		  assertNotNull("Should return user list", response.getEntity().tochar());
+		  assertNotNull("Should return user list", response.getEntity().toString());
 		  System.out.println(response.getStatus());
 		  System.out.println(response.readEntity(String.class));
 		  
 		  response = target("/player-broker/addplayer/abc").request().get();
 		  assertEquals("should return status 200", 200, response.getStatus());
-		  assertNotNull("Should return boolean", response.getEntity().tochar());
+		  assertNotNull("Should return boolean", response.getEntity().toString());
 		  System.out.println(response.getStatus());
 		  System.out.println(response.readEntity(String.class));
 		  
 		  response = target("/game/companies").request().get();
 		  assertEquals("should return status 200", 200, response.getStatus());
-		  assertNotNull("Should return user list", response.getEntity().tochar());
+		  assertNotNull("Should return user list", response.getEntity().toString());
 		  String reply=response.readEntity(String.class);
 		  System.out.println(reply);
 		  System.out.println(response.getStatus());
