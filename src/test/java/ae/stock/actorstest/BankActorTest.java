@@ -23,4 +23,32 @@ protected Application configure() {
         clientConfig.register(new JacksonJsonProvider());
     }
 
+@Test
+    public void testBank() {
+		Response response = target("/player-broker/addplayer/abc").request().get();
+		  assertEquals("should return status 200", 200, response.getStatus());
+		  assertNotNull("Should return boolean", response.getEntity().toString());
+		  System.out.println(response.getStatus());
+		  System.out.println(response.readEntity(String.class));
+		  
+		  response = target("/game/bank-accounts").request().get();
+		  assertEquals("should return status 200", 200, response.getStatus());
+		  assertNotNull("Should return boolean", response.getEntity().toString());
+		  System.out.println(response.getStatus());
+		  System.out.println(response.readEntity(String.class));
+		  
+		  response = target("/player-broker/bankdetails/abc").request().get();
+		  assertEquals("should return status 200", 200, response.getStatus());
+		  assertNotNull("Should return boolean", response.getEntity().toString());
+		  System.out.println(response.getStatus());
+		  System.out.println(response.readEntity(String.class));
+		  
+		  response = target("/player-broker/accounttransactions/abc").request().get();
+		  assertEquals("should return status 100", 200, response.getStatus());
+		  assertNotNull("Should return boolean", response.getEntity().toString());
+		  System.out.println(response.getStatus());
+		  System.out.println(response.readEntity(String.class));
+		  
+	}
+
 }
