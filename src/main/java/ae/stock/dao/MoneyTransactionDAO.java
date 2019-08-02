@@ -14,5 +14,15 @@ public class MoneyTransactionDAO {
 		account_transactions.add(account_transaction);
 	}
 	
+	public static List<MoneyTransaction> getTransactions(String account_holder){
+		List<MoneyTransaction> transactions = new ArrayList<MoneyTransaction>();
+		for(MoneyTransaction transaction:account_transactions) {
+			if(transaction.getAccount_holder().equals(account_holder)) {
+				transactions.add(transaction);
+			}
+		}
+		return transactions;
+	}
+	
 
 }
