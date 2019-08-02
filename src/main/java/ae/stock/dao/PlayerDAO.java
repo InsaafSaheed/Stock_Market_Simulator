@@ -23,6 +23,11 @@ public class PlayerDAO {
 		}
 		return p;
 	}
+
+	public static List<Player> save(Player player) {	        
+	      playerList.add(player);
+	      return playerList;
+	}
 	
 
 }
