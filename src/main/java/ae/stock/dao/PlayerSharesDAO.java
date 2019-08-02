@@ -30,6 +30,21 @@ public class PlayerSharesDAO {
 		}
 		return playerStocks;
 	}
+	public static double getShareCount(String company_name,String player) {
+		List<PlayerShares> playerShares = new ArrayList<PlayerShares>();
+		double stock_count=0;
+		for(PlayerShares share:player_stocks) {
+			if(share.getPlayer().equals(player)) {
+				playerShares.add(share);
+			}
+		}
+		for(PlayerShares stock:playerShares) {
+			if(company_name.equals(stock.getCompany())) {
+				stock_count=stock.getStock_Count();
+			}
+		}
+		return stock_count;
+	}
 
 
 
