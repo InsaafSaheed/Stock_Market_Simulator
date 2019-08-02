@@ -28,6 +28,15 @@ public class PlayerDAO {
 	      playerList.add(player);
 	      return playerList;
 	}
+
+	public static void update(Player player) {
+		for(int i=0;i<playerList.size();i++) {
+			if(playerList.get(i).getPlayer_name().equals(player.getPlayer_name())) {
+				playerList.set(i, player);
+			}
+			
+		}
+	}
 	
 
 }
