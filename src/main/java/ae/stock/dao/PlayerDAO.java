@@ -12,6 +12,17 @@ public class PlayerDAO {
 		
 		return playerList;
 	}
+
+	public static Player get(String player) {
+		Player p=new Player();
+		for(Player plyr:playerList) {
+			if(plyr.getPlayer_name().equals(player)) {
+				p=plyr;
+				break;
+			}
+		}
+		return p;
+	}
 	
 
 }
