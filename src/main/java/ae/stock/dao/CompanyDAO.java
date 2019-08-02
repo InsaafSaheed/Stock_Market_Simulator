@@ -16,6 +16,16 @@ public class CompanyDAO {
 	public static void save(Company company) {
 		company_stocks.add(company);
 	}
+	public static Company update(Company company) {
+		for(Company company_stock:company_stocks) {
+			if(company.getCompany_Name().equals(company_stock.getCompany_Name())) {
+				company_stock.setNo_of_Stocks(company.getNo_of_Stocks());
+				company_stock.setRandom_Trend(company.getRandom_Trend());
+				company_stock.setShare_Vlaue(company.getShare_Vlaue());
+			}
+		}
+		return company;
+	}
 
 
 }
