@@ -158,6 +158,6 @@ public class AiPlayerCore {
 			sell_shares(player);
 			buy_shares(player);
 		}
-	}
+	
 
 }
