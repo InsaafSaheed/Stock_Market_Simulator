@@ -44,7 +44,7 @@ protected Application configure() {
 		  System.out.println(response.readEntity(String.class));
 		  
 		  response = target("/player-broker/accounttransactions/abc").request().get();
-		  assertEquals("should return status 100", 200, response.getStatus());
+		  assertEquals("should return status 200", 200, response.getStatus());
 		  assertNotNull("Should return boolean", response.getEntity().toString());
 		  System.out.println(response.getStatus());
 		  System.out.println(response.readEntity(String.class));
