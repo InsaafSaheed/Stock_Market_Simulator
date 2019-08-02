@@ -15,6 +15,36 @@ import com.ofallonfamily.jersey2akka.AfterEffectsApplication;
 
 public class BrokerActorTest extends JerseyTest{
 	
+    protected Application configure() {
+        return new AfterEffectsApplication();
+    }
+	
+	protected void configureClient(ClientConfig clientConfig) {
+        clientConfig.register(new JacksonJsonProvider());
+    }
+	
+	@Test
+    public void testBank() {
+		Response response = target("/game/init").request().get();
+		  assertEquals("should return status 200", 200, response.getStatus());
+		  assertNotNull("Should return user list", response.getEntity().tochar());
+		  System.out.println(response.getStatus());
+		  System.out.println(response.readEntity(String.class));
+		  
+		  response = target("/player-broker/addplayer/abc").request().get();
+		  assertEquals("should return status 200", 200, response.getStatus());
+		  assertNotNull("Should return boolean", response.getEntity().tochar());
+		  System.out.println(response.getStatus());
+		  System.out.println(response.readEntity(String.class));
+		  
+		  response = target("/game/companies").request().get();
+		  assertEquals("should return status 200", 200, response.getStatus());
+		  assertNotNull("Should return user list", response.getEntity().tochar());
+		  String reply=response.readEntity(String.class);
+		  System.out.println(reply);
+		  System.out.println(response.getStatus());
+		  System.out.println(response.readEntity(String.class));
+	}
 
 
 }
