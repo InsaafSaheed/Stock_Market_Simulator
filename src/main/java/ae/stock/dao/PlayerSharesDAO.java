@@ -21,5 +21,16 @@ public class PlayerSharesDAO {
 		}
 		return player_stocks;
 	}
+	public static List<PlayerShares> getStocks(String player_name){
+		List<PlayerShares> playerStocks = new ArrayList<PlayerShares>();
+		for(PlayerShares stock:player_stocks) {
+			if(stock.getPlayer().equals(player_name)) {
+				playerStocks.add(stock);
+			}
+		}
+		return playerStocks;
+	}
+
+
 
 }
