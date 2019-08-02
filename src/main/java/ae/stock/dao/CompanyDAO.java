@@ -26,6 +26,29 @@ public class CompanyDAO {
 		}
 		return company;
 	}
+	public static void init() {
+		List<MarketSector> sector_list=MarketSectorDAO.getAll();
+		for(MarketSector sector:sector_list) {
+			for(int i=0;i<3;i++) {
+				Random random=new Random();
+				Company company=new Company(getCompanyName(),0,random.nextInt(100-80)+80,sector.getSector_name());
+				save(company);
+			}
+		}
+		
+	}
+	private static String getCompanyName() {
+        String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        StringBuilder salt = new StringBuilder();
+        Random rnd = new Random();
+        while (salt.length() < 18) { // length of the random string.
+            int index = (int) (rnd.nextFloat() * SALTCHARS.length());
+            salt.append(SALTCHARS.charAt(index));
+        }
+        String saltStr = salt.toString();
+        return saltStr;
+
+    }
 
 
 }
