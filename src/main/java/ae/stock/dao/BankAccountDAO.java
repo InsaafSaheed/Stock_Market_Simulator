@@ -19,6 +19,7 @@ public class BankAccountDAO {
 		return bankAccount;
 	}
 	
+	
 	public static List<BankAccount> withdraw(BankAccount bank_account,double trans_amount) {
 		for(int i=0;i<bank_accounts.size();i++) {
 			if(bank_accounts.get(i).getAccountHolder().equals(bank_account.getAccountHolder())) {
