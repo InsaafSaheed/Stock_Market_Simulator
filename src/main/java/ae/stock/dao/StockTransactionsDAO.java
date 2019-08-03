@@ -15,7 +15,6 @@ public class StockTransactionsDAO {
 		account_transactions.add(account_transaction);
 	}
 	
-
 	public static List<StockTransactions> getTransactions(String player_name){
 		List<StockTransactions> transactions = new ArrayList<StockTransactions>();
 		for(StockTransactions transaction:account_transactions) {
