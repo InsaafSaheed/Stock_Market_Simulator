@@ -46,5 +46,25 @@ static int time;
             		}
             		
             	}
+				for(Player player:PlayerDAO.getAll()) {
+            		List<PlayerShares> player_stocks=PlayerSharesDAO.getStocks(player.getPlayer_name());
+            		double total_value=0;
+            		for(PlayerShares stock:player_stocks) {
+            			total_value=total_value+stock.getStock_Value();
+            		}
+            		player.setStock_value(total_value);
+            		PlayerDAO.update(player);
+            	}
+            	RoundTimer();
+            }
+            return time;
+        }
+        else if (time==0){
+            return time;
+        }
+        else{
+        return --time;
+        }
+    }
 
 }
