@@ -43,5 +43,22 @@ public int getCurrent_round() {
 		this.bank_account=new BankAccount(player_name);
 		BankAccountDAO.save(this.bank_account);
 	}	
- 
+ public Player(String player_name, double stock_value) {
+		this.player_name = player_name;
+		this.stock_value = stock_value;
+	}
+	public String getPlayer_name() {
+		return player_name;
+	}
+	@XmlElement
+	public void setPlayer_name(String player_name) {
+		this.player_name = player_name;
+	}
+	public double getStock_value() {
+		return stock_value;
+	}
+	@XmlElement
+	public void setStock_value(double stock_value) {
+		this.stock_value = stock_value;
+	}
 }
