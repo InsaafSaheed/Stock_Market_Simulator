@@ -23,4 +23,25 @@ public class PlayerActorTest extends JerseyTest{
         clientConfig.register(new JacksonJsonProvider());
     }
 
+@Test
+    public void testPlayer() {
+		Response response = target("/player-broker/addplayer/abc").request().get();
+		  assertEquals("should return status 200", 200, response.getStatus());
+		  assertNotNull("Should return true or false", response.getEntity().toString());
+		  System.out.println(response.getStatus());
+		  System.out.println(response.readEntity(String.class));
+		  
+		  response = target("/player-broker/player-info/abc").request().get();
+		  assertEquals("should return status 200", 200, response.getStatus());
+		  assertNotNull("Should return player info", response.getEntity().toString());
+		  System.out.println(response.getStatus());
+		  System.out.println(response.readEntity(String.class));
+		  
+		  response = target("/player-broker/players").request().get();
+		  assertEquals("should return status 200", 200, response.getStatus());
+		  assertNotNull("Should return player list", response.getEntity().toString());
+		  System.out.println(response.getStatus());
+		  System.out.println(response.readEntity(String.class));
+		  
+
 }
