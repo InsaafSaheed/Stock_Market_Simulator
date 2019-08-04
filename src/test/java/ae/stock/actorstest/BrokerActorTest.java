@@ -40,8 +40,6 @@ public class BrokerActorTest extends JerseyTest{
 		  response = target("/game/companies").request().get();
 		  assertEquals("should return status 200", 200, response.getStatus());
 		  assertNotNull("Should return user list", response.getEntity().toString());
-		  String reply=response.readEntity(String.class);
-		  System.out.println(reply);
 		  System.out.println(response.getStatus());
 		  System.out.println(response.readEntity(String.class));
 	}
