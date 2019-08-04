@@ -42,6 +42,12 @@ public class PlayerActorTest extends JerseyTest{
 		  assertNotNull("Should return player list", response.getEntity().toString());
 		  System.out.println(response.getStatus());
 		  System.out.println(response.readEntity(String.class));
+
+		  response = target("/player-broker/playershares/abc").request().get();
+		  assertEquals("should return status 200", 200, response.getStatus());
+		  assertNotNull("Should return player shares", response.getEntity().toString());
+		  System.out.println(response.getStatus());
+		  System.out.println(response.readEntity(String.class));
 		  
 
 }
