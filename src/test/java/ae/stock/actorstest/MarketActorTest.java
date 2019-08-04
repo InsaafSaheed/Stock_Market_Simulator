@@ -63,7 +63,7 @@ protected Application configure() {
 		  System.out.println(response.getStatus());
 		  System.out.println(response.readEntity(String.class));
 		  
-		  response = target("/player-brokers/stocktransactions/abc").request().get();
+		  response = target("/player-broker/stocktransactions/abc").request().get();
 		  assertEquals("should return status 200", 200, response.getStatus());
 		  assertNotNull("Should return stock transactions list", response.getEntity().toString());
 		  System.out.println(response.getStatus());
