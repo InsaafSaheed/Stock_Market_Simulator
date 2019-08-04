@@ -6,31 +6,32 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "recommendation") 
 public class AnalystSuggession implements Serializable {
-    
-    private static final long serialVersionUID = 1L;
+    	private static final long serialVersionUID = 1L;
 	private String company_name;
 	private String recommend;
-
-    public string getCompany_name(){
+	
+	public String getCompany_name() {
 		return company_name;
 	}
-    @XmlElemant
-	publicvoid setCompany name(String Company_name){
-		this.company_name=company_name;
+	@XmlElement
+	public void setCompany_name(String company_name) {
+		this.company_name = company_name;
 	}
 	public String getRecommend() {
-		retun recommend;
+		return recommend;
 	}
-	@XmlElemant
-	public void setRecommend() {
-		this.recommend=recommend;
+	@XmlElement
+	public void setRecommend(String recommend) {
+		this.recommend = recommend;
 	}
 	public AnalystSuggession() {
-
+		
 	}
 	public AnalystSuggession(String company_name, String recommend) {
 		this.company_name = company_name;
 		this.recommend = recommend;
 	}
+	
+    
 
 }
