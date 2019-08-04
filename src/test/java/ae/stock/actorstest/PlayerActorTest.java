@@ -49,5 +49,5 @@ public class PlayerActorTest extends JerseyTest{
 		  System.out.println(response.getStatus());
 		  System.out.println(response.readEntity(String.class));
 		  
-
+	}
 }
