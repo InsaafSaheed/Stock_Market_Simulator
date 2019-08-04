@@ -28,6 +28,9 @@ public class AnalystSuggession implements Serializable {
 	public AnalystSuggession() {
 
 	}
-	 
+	public AnalystSuggession(String company_name, String recommend) {
+		this.company_name = company_name;
+		this.recommend = recommend;
+	}
 
 }
